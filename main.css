@@ -1,0 +1,623 @@
+@font-face {
+    font-weight: 400;
+    font-family: 'SchoolBook';
+    src: url("./font/Schoolbook\ Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Futura New';
+    src: url("./font/FuturaNew/FuturaNewBold-Reg.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'Futura New';
+    src: url("./font/FuturaNew/FuturaNewBook-Reg.ttf");
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFEFE;
+    width: 100%;
+}
+
+button { 
+    border: none; 
+    outline: none; 
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+
+.header-nav {
+    margin: 5px 65px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-nav {
+    padding: 40px;
+}
+
+.nav-nav a {
+    padding-right: 40px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.city {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFC59E;
+}
+
+/* HEADER PAGE CONTENT */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    margin: 50px 110px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header-list a {
+    margin: 30px 0;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+}
+
+.header-list a:hover::before {
+    border: 3px solid black;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.header-row {
+    margin-left: 120px;
+}
+
+.header-title {
+    margin: 60px 0;
+    padding: 5px 0;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606;
+}
+
+.header-button {
+    margin: 20px 0;
+    
+    width: 285px;
+    height: 67px;
+    background: #FFC59E;
+    box-shadow: 0px 4px 20px #FFC59E;
+    border-radius: 33.5px;  
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.header-socials {
+    margin-top: 120px;
+    margin-bottom: 50px;
+
+    display: flex;
+    column-gap: 50px;
+}
+
+.header-img {
+    margin-top: 80px;
+
+    max-height: 660px;
+    max-width: 630px;
+}
+
+.tel-parent {
+    position: relative;
+}
+
+.header-tel {
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #59443F;
+}
+
+/* SECOND PAGE CONTENT */
+
+.cards {
+    margin: 100px 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px 10px;
+
+    width: 320px;
+    height: 220px;
+
+    box-shadow: 0px 4px 10px #C3B9B5;
+    background: #FFFEFE;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.card h2 {
+    margin-left: 20px;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #59443F;
+}
+
+.card p {
+    margin-left: 20px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+
+    position: absolute;
+    bottom: 10px;
+}
+
+.card img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* PAGE WITH HISTORY AND SPETIALISTS */
+
+.container-for-page {
+    width: 100%;
+    height: 900px;
+    background-color: #FBF8F8;
+}
+
+.title-for-page {
+    padding-top: 50px;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #080606;
+}
+
+.for-text {
+    margin: 10px 200px;
+    padding: 0 300px;
+}
+
+
+.histori {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F;
+}
+
+.for-more {
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFC59E;
+
+    margin: 50px;
+}
+
+.for-more::after {
+    content: url(./img/third_page/arrow-down-sign-to-navigate.svg);
+}
+
+
+/* Slider */
+
+.slider {
+    position: relative;
+    height: 180px;
+    text-align: center;
+  }
+  
+  .slider__item {
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+  }
+  
+  .slider__btn {
+    position: absolute;
+    left: 1330px;
+    top: 85px;
+  
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  
+    display: flex;
+    align-items: center;
+  
+    background: #FFC59E;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slider__btn--prev {
+    left: 150px;
+    padding-left: 0;
+    justify-content: flex-end;
+  }
+
+/* FOURTH */
+
+.container-for-help {
+    margin-left: 400px;
+
+    max-width: 716px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.help-numbers-title {
+    margin-bottom: 20px;
+    margin-top: 150px;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 110px;
+    color: #59443F;
+}
+
+.help-numbers-text {
+    margin-bottom: 250px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606;
+}
+
+.container-for-bird {
+    position: absolute;
+}
+
+.bird {
+    position: relative;
+    left: 880px;
+    top: -300px;
+}
+
+/* FIVE */
+
+.container-for-adv-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.adv-card {
+    max-width: 430px;
+    max-height: 220px;
+
+    margin: 50px 30px;
+}
+
+.img-and-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.adv-card h3 {
+    margin-bottom: 0;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #080606;
+}
+
+.img-and-text p {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F;
+}
+
+/* SIX */
+
+.page-container {
+    width: 100%;
+    height: 1000px;
+    background: #FFC59E;
+}
+
+.container-for-text {
+    max-width: 775px;
+    max-height: 330px;
+
+    margin: 230px 230px;
+    padding-top: 230px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-for-text p{
+    margin-bottom: 0;
+
+    font-family: 'Futura New';
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container-for-text h2{
+    font-family: 'SchoolBook';
+    font-size: 80px;
+    line-height: 110px;
+    color: #FFFFFF;
+}
+
+.container-for-btn {
+    display: flex;
+    align-items: center;
+}
+
+.container-for-img {
+    position: relative;
+}
+
+.dog-img {
+    position: absolute;
+    bottom: -50px;
+    right: 300px;
+}
+
+.app-img {
+    position: absolute;
+    bottom: -110px;
+    right: 65px;
+}
+
+/* SEVEN */
+
+.content-box {
+    display: flex;
+    margin: 50px 0;
+}
+
+.contacts {
+    margin: 0 200px;
+}
+
+.contacts h2 {
+    margin-bottom: 50px;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #080606;
+}
+
+.contacts h3 {
+    margin-bottom: 0;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #080606;
+}
+
+.data-for-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.img-and-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.img-and-text p {
+    margin-bottom: 0;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F;
+}
+
+.map {
+    margin-top: 80px; 
+}
+
+/* FOOTER */
+
+.footer-container {
+    background: #59443F;
+    min-height: 400px;
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.text-logo h1 {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.text-logo p {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.for-text-footer {
+    margin: 100px 50px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.inner-flex {
+    display: flex;
+    column-gap: 100px;
+    width: 900px;
+
+    margin-left: 110px;
+}
+
+.first-column {
+    width: 900px;
+    line-height: 30px;
+}
+
+.next-column {
+    width: 900px;
+}
+
+.next-column p {
+    line-height: 10px;
+}
+
+.last-column {
+    width: 900px;
+}
+
+.last-column p {
+    line-height: 10px;
+}
+
+.for-contacts {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    padding-right: 50px;
+}
+
+.container-for-btn-footer {
+    margin-top: 100px;
+}
+
+.footer-socials {
+    display: flex;
+    column-gap: 50px;
+
+    margin: 50px 0;
+}
+
+.copyright {
+    margin-top: 60px;
+}
